@@ -26,6 +26,8 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.formal.nusmv/com.mbeddr.formal.nusmv.mpl" folder="lang.nusmv" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.formal.nuxmv.source/com.mbeddr.formal.nuxmv.source.mpl" folder="lang.nuxmv" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.formal.nuxmv/com.mbeddr.formal.nuxmv.mpl" folder="lang.nuxmv" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.formal.ocra/com.mbeddr.formal.ocra.mpl" folder="lang.ocra" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.formal.ocra/sandbox/com.mbeddr.formal.ocra.sandbox.msd" folder="lang.ocra" />
       <modulePath path="$PROJECT_DIR$/solutions/com.fasten.base.activity.sandbox/com.fasten.base.activity.sandbox.msd" folder="lang.base.activity" />
       <modulePath path="$PROJECT_DIR$/solutions/com.fasten.base.msc.sandbox/com.fasten.base.msc.sandbox.msd" folder="lang.base.msc" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.base.pluginSolution/com.mbeddr.formal.base.pluginSolution.msd" folder="lang.base" />
@@ -35,6 +37,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.nusmv.importer.rt/com.mbeddr.formal.nusmv.importer.rt.msd" folder="lang.nusmv" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.nusmv.pluginSolution/com.mbeddr.formal.nusmv.pluginSolution.msd" folder="lang.nusmv" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.nuxmv.pluginSolution/com.mbeddr.formal.nuxmv.pluginSolution.msd" folder="lang.nuxmv" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.ocra.pluginSolution/com.mbeddr.formal.ocra.pluginSolution.msd" folder="lang.ocra" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.rcp.pluginSolution/com.mbeddr.formal.rcp.pluginSolution.msd" folder="rcp" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.rcp.tips_and_tricks/com.mbeddr.formal.rcp.tips_and_tricks.msd" folder="rcp" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.formal.rcp.tutorialActions/com.mbeddr.formal.rcp.tutorialActions.msd" folder="rcp" />
