@@ -10,6 +10,7 @@
     <import index="ehqg" ref="r:2c1724e1-8ed6-4fe4-9e44-fae13cd2a5ac(com.mbeddr.formal.base.expressions.structure)" />
     <import index="b19z" ref="r:11a68676-9d63-4e1c-b920-59aefe77def3(com.mbeddr.formal.base.structure)" />
     <import index="gioj" ref="r:a6dee7e9-c79f-4293-b631-7c366a8877df(com.mbeddr.formal.nusmv.structure)" />
+    <import index="6z8w" ref="r:d4c22a7f-7332-4377-bba1-18afaeea0257(com.mbeddr.formal.nusmv.ext.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -72,7 +73,7 @@
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="2239374314123298593" />
     <property role="TrG5h" value="OthelloSystemSpecification" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2OfmkSXZL1n" resolve="OthelloSpecification" />
     <node concept="1TJgyj" id="1QMZQ03RyWp" role="1TKVEi">
       <property role="IQ2ns" value="2140053560801242905" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -152,7 +153,7 @@
       <property role="IQ2ns" value="2140053560801711213" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="include" />
-      <ref role="20lvS9" node="1QMZQ03TRgW" resolve="OthelloSystemSpecificationRef" />
+      <ref role="20lvS9" node="1QMZQ03TRgW" resolve="OthelloSpecificationRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="1WjQLbKt0sA">
@@ -762,13 +763,13 @@
   </node>
   <node concept="1TIwiD" id="1QMZQ03TRgW">
     <property role="EcuMT" value="2140053560801850428" />
-    <property role="TrG5h" value="OthelloSystemSpecificationRef" />
+    <property role="TrG5h" value="OthelloSpecificationRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1QMZQ03TRh4" role="1TKVEi">
       <property role="IQ2ns" value="2140053560801850436" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1WjQLbKt0sx" resolve="OthelloSystemSpecification" />
+      <ref role="20lvS9" node="2OfmkSXZL1n" resolve="OthelloSpecification" />
     </node>
   </node>
   <node concept="25R3W" id="1QMZQ03Wtfr">
@@ -1127,6 +1128,50 @@
     <property role="TrG5h" value="RelationalOperator" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2OfmkSXY_kt">
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="3246912048939554077" />
+    <property role="TrG5h" value="OthelloLibrarySpecification" />
+    <ref role="1TJDcQ" node="2OfmkSXZL1n" resolve="OthelloSpecification" />
+    <node concept="1TJgyj" id="2OfmkSXY_ku" role="1TKVEi">
+      <property role="IQ2ns" value="3246912048939554078" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2OfmkSY2S4f" resolve="IOthelloLibraryContent" />
+    </node>
+    <node concept="PrWs8" id="2OfmkSXY_kz" role="PzmwI">
+      <ref role="PrY4T" to="b19z:6oUHYlAmoE8" resolve="IIdentifierNamedConcept" />
+    </node>
+    <node concept="PrWs8" id="70K71XXiExY" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2OfmkSXZL1n">
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="3246912048939864151" />
+    <property role="TrG5h" value="OthelloSpecification" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2OfmkSXZL1p" role="PzmwI">
+      <ref role="PrY4T" to="b19z:6oUHYlAmoE8" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2OfmkSY2S4f">
+    <property role="EcuMT" value="3246912048940679439" />
+    <property role="TrG5h" value="IOthelloLibraryContent" />
+    <property role="3GE5qa" value="interfaces" />
+  </node>
+  <node concept="1TIwiD" id="2OfmkSY2WCU">
+    <property role="EcuMT" value="3246912048940698170" />
+    <property role="TrG5h" value="EnumDeclaration" />
+    <property role="34LRSv" value="enum" />
+    <property role="R4oN_" value="enum declaration" />
+    <ref role="1TJDcQ" to="6z8w:6xNJt7lN6Tk" resolve="EnumDeclaration" />
+    <node concept="PrWs8" id="2OfmkSY2WCZ" role="PzmwI">
+      <ref role="PrY4T" node="2OfmkSY2S4f" resolve="IOthelloLibraryContent" />
+    </node>
   </node>
 </model>
 
